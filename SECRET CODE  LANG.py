@@ -64,37 +64,3 @@ def decrypt_message(encrypted_message):
 
 encrypted_message = input("Enter Encrypted Message: ")
 print("Decrypted Message:", decrypt_message(encrypted_message))
-
-
-
-
-
-
-
-
-
-
-
-
-
-#import random
-# import string
-# # ENCRYPTION
-# message = str(input("Enter A Message : "))
-# msg = list(message)
-# print("Original message as list:", msg)
-
-# if len(message) < 3:
-#     msg.reverse()
-#     print("Reversed message:", msg)
-# else:
-#     msg[0], msg[-1] = msg[-1], msg[0]
-#     print("Swapped message:", msg)
-#     # msg = list(message)
-#     random_letters_start = ''.join(random.choices(string.ascii_letters, k=3))
-#     random_letters_end = ''.join(random.choices(string.ascii_letters, k=3))
-#     msg = list(random_letters_start) + msg + list(random_letters_end)
-#     print("Modified message:", msg)
-#     l = str(msg)
-#     print(l)
-
